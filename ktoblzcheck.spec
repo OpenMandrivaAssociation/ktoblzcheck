@@ -1,14 +1,14 @@
 %define name ktoblzcheck
-%define version 1.8
-%define release %mkrel 2
+%define version 1.15
+%define release %mkrel 1
 %define major 1
 %define libname %mklibname %name %major
+%define develname %mklibname -d %name
 Name: %{name}
 Summary: A library to check account numbers and bank codes of German banks
 Version: %{version}
 Release: %{release}
-Source: http://prdownloads.sourceforge.net/ktoblzcheck/%{name}-%{version}.tar.bz2
-Patch: ktoblzcheck-1.8-gcc4.1.patch.bz2
+Source: http://prdownloads.sourceforge.net/ktoblzcheck/%{name}-%{version}.tar.gz
 Group: System/Libraries
 License: LGPL
 URL: http://ktoblzcheck.sourceforge.net
@@ -47,13 +47,14 @@ command-line tool is available. It is possible to check pairs of
 account numbers and bank codes (BLZ) of German banks, and to map bank
 codes (BLZ) to the clear-text name and location of the bank.
 
-%package -n %libname-devel
+%package -n %develname
 Group: Development/C++
 Summary:A library to check account numbers and bank codes of German banks
 Requires: %libname = %version
 Provides: lib%name-devel = %version-%release
+Obsoletes: %mklibname -d %name 1
 
-%description -n %libname-devel
+%description -n %develname
 KtoBLZCheck is a library to check account numbers and bank codes of
 German banks. Both a library for other programs as well as a short
 command-line tool is available. It is possible to check pairs of
@@ -62,7 +63,6 @@ codes (BLZ) to the clear-text name and location of the bank.
 
 %prep
 %setup -q
-%patch -p1
 
 %build
 %configure2_5x
@@ -82,7 +82,7 @@ codes (BLZ) to the clear-text name and location of the bank.
 %defattr(-,root,root,0755)
 %{_libdir}/libktoblzcheck.so.%{major}*
 
-%files -n %libname-devel
+%files -n %develname
 %defattr(-,root,root,0755)
 %{_libdir}/libktoblzcheck.so
 %{_libdir}/libktoblzcheck.la
