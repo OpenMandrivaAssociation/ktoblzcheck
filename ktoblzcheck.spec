@@ -12,7 +12,6 @@ Source: http://prdownloads.sourceforge.net/ktoblzcheck/%{name}-%{version}.tar.gz
 Group: System/Libraries
 License: LGPL
 URL: http://ktoblzcheck.sourceforge.net
-BuildRoot: %{_tmppath}/%{name}-%{version}-root
 BuildRequires: python-devel
 
 %description 
