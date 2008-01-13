@@ -1,6 +1,6 @@
 %define name ktoblzcheck
 %define version 1.15
-%define release %mkrel 1
+%define release %mkrel 2
 %define major 1
 %define libname %mklibname %name %major
 %define develname %mklibname -d %name
