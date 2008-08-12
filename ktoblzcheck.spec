@@ -1,6 +1,6 @@
 %define name ktoblzcheck
-%define version 1.18
-%define release %mkrel 2
+%define version 1.19
+%define release %mkrel 1
 %define major 1
 %define libname %mklibname %name %major
 %define develname %mklibname -d %name
@@ -10,7 +10,7 @@ Version: %{version}
 Release: %{release}
 Source: http://prdownloads.sourceforge.net/ktoblzcheck/%{name}-%{version}.tar.gz
 Group: System/Libraries
-License: LGPL
+License: LGPLv2+
 URL: http://ktoblzcheck.sourceforge.net
 BuildRoot: %{_tmppath}/%{name}-%{version}-root
 BuildRequires: python-devel
