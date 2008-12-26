@@ -1,6 +1,6 @@
 %define name ktoblzcheck
 %define version 1.20
-%define release %mkrel 1
+%define release %mkrel 2
 %define major 1
 %define libname %mklibname %name %major
 %define develname %mklibname -d %name
@@ -26,6 +26,7 @@ codes (BLZ) to the clear-text name and location of the bank.
 Group: Development/Python
 Summary:A library to check account numbers and bank codes of German banks
 Requires: %name = %version
+%py_requires -d
 
 %description -n python-%name
 KtoBLZCheck is a library to check account numbers and bank codes of
