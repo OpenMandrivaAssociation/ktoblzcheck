@@ -1,6 +1,6 @@
 %define name ktoblzcheck
-%define version 1.31
-%define release %mkrel 2
+%define version 1.33
+%define release %mkrel 1
 %define major 1
 %define libname %mklibname %name %major
 %define develname %mklibname -d %name
@@ -101,7 +101,7 @@ codes (BLZ) to the clear-text name and location of the bank.
 
 %files
 %defattr(-,root,root,0755)
-%doc README TODO COPYING ChangeLog
+%doc README COPYING ChangeLog
 %{_bindir}/ktoblzcheck
 %{_datadir}/ktoblzcheck/*
 %{_mandir}/man1/ktoblzcheck.1*
