@@ -90,7 +90,6 @@ codes (BLZ) to the clear-text name and location of the bank.
 %files -n %develname
 %defattr(-,root,root,0755)
 %{_libdir}/libktoblzcheck.so
-%{_libdir}/libktoblzcheck.la
 %{_includedir}/iban.h
 %{_includedir}/ktoblzcheck.h
 %{_libdir}/pkgconfig/ktoblzcheck.pc
