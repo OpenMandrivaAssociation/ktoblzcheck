@@ -1,2 +1,4 @@
+removed_sources:
+  ktoblzcheck-1.39.tar.gz: b88ae800ed4cf7a1b8547eb0104fc6663334716d
 sources:
-  "ktoblzcheck-1.39.tar.gz": b88ae800ed4cf7a1b8547eb0104fc6663334716d
+  ktoblzcheck-1.42.tar.gz: 1a756886ed2ca1dcff3113391a204675f6be236a

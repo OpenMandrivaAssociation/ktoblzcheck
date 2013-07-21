@@ -4,7 +4,7 @@
 
 Summary:	A library to check account numbers and bank codes of German banks
 Name:		ktoblzcheck
-Version:	1.39
+Version:	1.42
 Release:	1
 Group:		System/Libraries
 License:	LGPLv2+
