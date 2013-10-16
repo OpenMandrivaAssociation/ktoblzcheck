@@ -82,6 +82,6 @@ codes (BLZ) to the clear-text name and location of the bank.
 %{_libdir}/pkgconfig/ktoblzcheck.pc
 
 %files -n python-%{name}
-%{py_sitedir}/*.py*
+%{py_puresitedir}/*.py*
 
 
