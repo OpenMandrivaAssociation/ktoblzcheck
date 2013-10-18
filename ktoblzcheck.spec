@@ -4,12 +4,12 @@
 
 Summary:	A library to check account numbers and bank codes of German banks
 Name:		ktoblzcheck
-Version:	1.42
-Release:	2
+Version:	1.43
+Release:	1
 Group:		System/Libraries
 License:	LGPLv2+
 Url:		http://ktoblzcheck.sourceforge.net
-Source0:	http://prdownloads.sourceforge.net/ktoblzcheck/%{name}-%{version}.tar.gz
+Source0:	https://sourceforge.net/projects/ktoblzcheck/files/%{name}-%{version}.tar.gz
 BuildRequires:	pkgconfig(python)
 
 %description 
@@ -82,5 +82,6 @@ codes (BLZ) to the clear-text name and location of the bank.
 %{_libdir}/pkgconfig/ktoblzcheck.pc
 
 %files -n python-%{name}
-%{py_sitedir}/*.py*
+%{py_puresitedir}/*.py*
+
 
