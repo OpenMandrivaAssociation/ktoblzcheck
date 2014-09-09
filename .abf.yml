@@ -3,5 +3,6 @@ removed_sources:
   ktoblzcheck-1.42.tar.gz: 1a756886ed2ca1dcff3113391a204675f6be236a
   ktoblzcheck-1.43.tar.gz: 9b03780f17c5e4ef6a821cd9d819cb39e4fb559f
   ktoblzcheck-1.44.tar.gz: ccb02a59ae216ca65b9de4a545f83c56e0290d5e
-sources:
   ktoblzcheck-1.45.tar.gz: a552012bb219ac24dcdbac977cf94c951bfe31bc
+sources:
+  ktoblzcheck-1.46.tar.gz: a97b7365cc9c103cc83115604d7c0dcf74b6ea71
