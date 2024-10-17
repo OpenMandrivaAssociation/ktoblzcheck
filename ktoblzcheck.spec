@@ -8,7 +8,7 @@ Version:	1.49
 Release:	3
 Group:		System/Libraries
 License:	LGPLv2+
-Url:		http://ktoblzcheck.sourceforge.net
+Url:		https://ktoblzcheck.sourceforge.net
 Source0:	http://downloads.sourceforge.net/ktoblzcheck/%{name}-%{version}.tar.gz
 BuildRequires:	pkgconfig(python)
 
